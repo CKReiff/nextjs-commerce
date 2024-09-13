@@ -7,7 +7,7 @@ import MobileMenu from './mobile-menu';
 import LogoIcon from 'components/icons/logo';
 
 export default async function Navbar() {
-  const menu = await getMenu('next-js-frontend-header-menu');
+  const menu = await getMenu('next-js-frontend-footer-menu');
 
   return (
     <nav className="relative flex items-center justify-between p-4">
